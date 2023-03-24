@@ -189,7 +189,7 @@ p {
 
 
 .startscherm_img {
-    background-image: url(./images/buildthebully.png);
+    background-image: url('images/buildthebully.png');
     background-position: center;
     background-size: cover;
     background-color: transparent;
