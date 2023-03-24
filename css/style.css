@@ -1,0 +1,217 @@
+
+@font-face {
+    font-family: 'codec_bold';
+    src: url(fonts/codec_cold_bold.ttf);
+}
+
+@font-face {
+    font-family: 'codec_regular';
+    src: url(fonts/codec_cold_regular.ttf);
+}
+
+@font-face {
+    font-family: 'codec_light';
+    src: url(fonts/codec_cold_light.ttf);
+}
+
+@font-face {
+    font-family: 'puppylovebrush';
+    src: url(fonts/puppylovebrush.ttf);
+}
+
+body {
+    background-color: rgb(232, 173, 183);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 0.5em 0em 1em 0em;
+    font-size: 2.5em;
+    font-family: 'puppylovebrush', Arial, Helvetica, sans-serif;
+}
+
+
+p {
+    font-family: "input-mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 0em 0em 0em 6em;
+}
+
+.menu_bg {
+    position: relative;
+    background-color: white;
+    width: 80vw;
+    height: 90vh;
+    margin: 0em 6em 2em 6em;
+    border-radius: 20px;
+}
+
+.girl {
+    position: absolute;
+    width: 36vw;
+    height: auto;
+    left: 35em;
+    top: 5em;
+    margin: 0;
+    padding: 0;
+}
+
+.textcloud {
+    position: absolute;
+    width: 17vw;
+    height: auto;
+    top: -2em;
+    left: 45em;
+}
+
+.container_buttons {
+    position: absolute;
+    display: grid;
+    align-self: center;
+    grid-template-columns: 15em 15em;
+    gap: 2em;
+    align-items: center;
+    justify-content: flex-start;
+    left: 10em;
+    top: 22em;
+}
+
+.container_buttons img {
+    position: absolute;
+    width: 85px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.punch {
+    left: 2.5em;
+    top: 3.5em;
+}
+
+.nunchucks {
+    left: 16.5em;
+    top: 3.5em;
+}
+
+.fire {
+    left: 2.5em;
+    top: 13.5em;
+}
+
+.trash {
+    left: 16.5em;
+    top: 14.5em;
+}
+
+.container_buttons button {
+    text-align: center;
+    font-family: "input-mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2em;
+    width: 175px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: rgb(250, 204, 226);
+    border-color: rgb(242, 105, 158);
+    box-shadow: 0px 4px 3px -2px black;
+}
+
+.buttontext1, .buttontext2, .buttontext3, .buttontext4 {
+    font-family: "input-mono", monospace, Arial;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2em;
+    position: absolute;
+}
+
+.buttontext1 {
+    left: 3em;
+    top: 1em;
+}
+
+.buttontext2 {
+    left: 16em;
+    top: 1em;
+}
+
+.buttontext3 {
+    left: 3.5em;
+    top: 12em;
+}
+
+.buttontext4 {
+    left: 17em;
+    top: 12em;
+}
+
+.random_button {
+    position: absolute;
+    left: 17em;
+    top: 41em;
+    width: 120px;
+    height: 40px;
+    font-family: "input-mono", monospace, Arial;
+    font-weight: 500;
+    font-size: 1.2em;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(242, 105, 158);
+    border-color: rgb(242, 105, 158);
+    box-shadow: 0px 4px 3px -2px rgb(199, 52, 150);
+}
+
+
+.start_button{
+    width: 280px;
+    height: 100px;
+    font-family: "input-mono", monospace, Arial;
+    font-weight: 500;
+    font-size: 2em;
+    border-radius: 20px;
+    padding: 0;
+    margin: 5vw -10vw 0vw 38vw;
+    box-shadow: 0px 4px 3px -2px rgb(199, 52, 150);
+    background-color: white;
+    transition: opacity .2s;
+}
+
+.start_button:hover{
+    cursor: pointer;
+    background-color: rgb(242, 105, 158);
+    color: white;
+}
+
+
+.startscherm_img {
+    background-image: url(/programmeren_eindopdracht_sara/images/buildthebully.png);
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+    width: 350px;
+    height: 130px;
+    padding: 1em;
+    margin: 0vw 0vw 0vw 36vw;
+}
+
+.hide {
+    display: none;
+}
+
+.container_buttons .not_working {
+    background-color: rgb(252, 234, 240);
+    border: none;
+}
+
+
+/* bronnen images: 
+https://www.nicepng.com/downpng/u2t4y3y3u2e6t4t4_free-png-download-clenched-fist-male-hand-png/
+https://www.bestfightshop.nl/zwart-foam-nunchaku-met-ketting.html?source=googlebase&gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh12SbPY7B8wVxR4KiUnAiv88apxErkR5sU6el2K6A1_6Yt7Gt8INWMaAjFqEALw_wcB&utm_source=adtraction&utm_medium=affiliate&utm_campaign=adtraction&at_gd=5E9324DFB7524573FFA4D6E18E3B67D3E564BAB5
+https://www.freepnglogos.com/pics/fire
+https://www.stickpng.com/img/miscellaneous/garbage/garbage-bin-and-two-black-bags
+*/
