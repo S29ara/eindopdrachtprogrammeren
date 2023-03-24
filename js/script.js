@@ -24,7 +24,7 @@ var textCloud = document.querySelector(".textcloud");
 
 var randomButton = document.querySelector(".random_button")
 
-var damageArray = ["images/meangirl_blood.png", "images/meangirl_blue_eye.png", "images/meangirl_trash.png", "images/meangirl_onfire.png"];
+var damageArray = ["/images/meangirl_blood.png", "/images/meangirl_blue_eye.png", "/images/meangirl_trash.png", "/images/meangirl_onfire.png"];
 
 var fewClicks = 0;
 
